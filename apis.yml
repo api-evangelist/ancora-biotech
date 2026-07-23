@@ -1,23 +1,55 @@
 aid: ancora-biotech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ancora-biotech.png
 name: Ancora Biotech
-description: Ancora Biotech is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Ancora Biotech is a clinical-stage biopharmaceutical company developing breakthrough
+  biotherapeutics for B cell cancers, metabolic diseases, and chronic hepatitis B infection. Formed
+  by former Teneobio executives and venture investors, it oversees three therapeutic programs across
+  separate spinoffs — TeneoTwo (TNB-486, a T cell engager in Phase I for B-cell malignancies),
+  TeneoFour (TNB-738, an anti-CD38 antibody for inflammatory and metabolic disorders), and TeneoTen
+  (an anti-HBV T cell engager for hepatitis B). It is a drug-development company with no public
+  developer API or platform surface.
 url: https://raw.githubusercontent.com/api-evangelist/ancora-biotech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
+- sutter-hill-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Biopharmaceutical
+- Healthcare
+- Life Sciences
+- Immunotherapy
+- Oncology
+common:
+- type: Website
+  url: https://www.ancorabiotech.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
